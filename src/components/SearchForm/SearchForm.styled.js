@@ -7,7 +7,7 @@ export const SearchFormStyled = styled.form`
 
   position: relative;
 
-  margin-bottom: ${props => props.theme.spacing.step * 20}px;
+  margin-bottom: ${(props) => props.theme.spacing.step * 20}px;
 `;
 
 export const Select = styled.select`
@@ -27,7 +27,7 @@ export const Select = styled.select`
   transition: all 0.5s ease-in-out;
 
   padding-right: 40px;
-  color: #fff;
+  color: #000;
 
   cursor: pointer;
 `;
