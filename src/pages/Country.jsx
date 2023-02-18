@@ -17,7 +17,14 @@ export const Country = () => {
   return (
     <Section>
       <Container>
-        <CountryInfo flag={country.flag} capital={country.capital} country={country.countryName} id={country.id} languages={country.languages} population={country.population} />
+        <CountryInfo
+          flag={country.flag}
+          capital={country.capital}
+          country={country.countryName}
+          id={country.id}
+          languages={country.languages}
+          population={country.population}
+        />
       </Container>
     </Section>
   );
